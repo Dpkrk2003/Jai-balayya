@@ -57,8 +57,8 @@ VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( F
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/MovieMingleNetNetwork') # How to open tutorial link for verification
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'paisakamalo.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'a141ad7301c86074dc0444289668c6a070d8ac66')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'droplink.co')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'b3f5bef496498261c4bc902e6330f692d86fdf11')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))  # else--> True
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")

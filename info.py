@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '7291188'))
 API_HASH = environ.get('API_HASH', '92c78baef31ad68a00a32e983d238277')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7054767325:AAEIeZDixv6fQfg03rUcOLw3GQBFOv5DO5Q")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6969038678:AAFr1vOPyueDQyKwIfE18ZwkcaYm75ima_k")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -59,7 +59,7 @@ HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/MovieMingleNetNetwork') #
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'droplink.co')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'b3f5bef496498261c4bc902e6330f692d86fdf11')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))  # else--> True
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))  # else--> True
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
